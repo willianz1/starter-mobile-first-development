@@ -27,3 +27,34 @@ main p {
   font-family: "Roboto", sans-serif;
   margin-top: 0;
 }
+
+.group{
+  display: flex; 
+  flex-direction: row;
+}
+
+.item{
+  flex: 1; 
+  padding: 10px; 
+  padding-bottom: 30px;
+  padding-left: 20px;
+}
+
+.item-double{
+  flex: 2; 
+}
+.group-tiny{
+  background-color: #5c4f41;
+  padding: 10px; 
+}
+.item-tiny{
+  
+  flex: 4; 
+}
+
+
+
+/* This is going to be for mobile */
+@media all and (min-width: 800px){
+  
+}
